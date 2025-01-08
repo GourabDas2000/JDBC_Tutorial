@@ -10,9 +10,9 @@ class MysqlConnection{
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Database connection details
-            String url = "jdbc:mysql://localhost:3306/gourab?allowPublicKeyRetrieval=true&trustServerCertificate=true";
-            String username = "root";
-            String password = "#Gourabdas10122000";
+            String url = DatabaseConfig.url;
+            String username = DatabaseConfig.user;
+            String password = DatabaseConfig.password;
             String query = "SELECT * FROM gourab";
 
             // Establish the connection
