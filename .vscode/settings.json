@@ -1,4 +1,7 @@
 {
   "java.project.sourcePaths": ["JDBC"],
-  "java.project.referencedLibraries": ["JDBC\\lib\\mysql-connector-j-9.1.0.jar"]
+  "java.project.referencedLibraries": [
+    "JDBC\\lib\\mysql-connector-j-9.1.0.jar"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
